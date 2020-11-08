@@ -4,6 +4,9 @@
         <button @click="incre">+</button>&nbsp;
         <button @click="decre({name:'ls'})">-</button>
         <button @click="dodel">-</button>
+        <br>
+        {{$store.state.count}}
+        {{$store.getters.msg}}
     </div>
 </template>
 
